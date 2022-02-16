@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import OpenAccount from './components/OpenAccount/OpenAccount';
 import Cards from './components/Cards/Cards';
 import CryptoStep from './components/CryptoStep/CryptoStep';
+import Details from './components/Details/Details';
 
 const App = () => {
 	return (
@@ -13,6 +14,7 @@ const App = () => {
 				<OpenAccount />
 				<Cards />
 				<CryptoStep />
+				<Details />
 			</main>
 		</div>
 	);
