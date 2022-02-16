@@ -1,7 +1,7 @@
 import React from 'react';
-import Step1 from '../../assets/images/Step1.svg';
-import Step2 from '../../assets/images/Step2.svg';
-import Step3 from '../../assets/images/Step3.svg';
+const step1 = require('../../assets/images/step1.png');
+const step2 = require('../../assets/images/step2.png');
+const step3 = require('../../assets/images/step3.png');
 import './cryptoStep.scss';
 const CryptoStep = () => {
 	return (
@@ -15,7 +15,7 @@ const CryptoStep = () => {
 			<div className='cryptoStep__steps'>
 				<div className='cryptoStep__steps-item'>
 					<div className='cryptoStep__steps-item-svg'>
-						<Step1 />
+						<img src={step1} alt='step1' />
 					</div>
 					<div className='cryptoStep__steps-item-title'>Step 1</div>
 					<div className='cryptoStep__steps-item-text1'>
@@ -27,7 +27,7 @@ const CryptoStep = () => {
 				</div>
 				<div className='cryptoStep__steps-item'>
 					<div className='cryptoStep__steps-item-svg'>
-						<Step2 />
+						<img src={step2} alt='step2' />
 					</div>
 					<div className='cryptoStep__steps-item-title'>Step 2</div>
 					<div className='cryptoStep__steps-item-text1'>
@@ -37,7 +37,7 @@ const CryptoStep = () => {
 				</div>
 				<div className='cryptoStep__steps-item'>
 					<div className='cryptoStep__steps-item-svg'>
-						<Step3 />
+						<img src={step3} alt='step3' />
 					</div>
 					<div className='cryptoStep__steps-item-title'>Step 3</div>
 					<div className='cryptoStep__steps-item-text1'>
