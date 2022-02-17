@@ -6,7 +6,15 @@
 }
 .main {
 	background-color: #130645;
-	height: calc(100vh - 72px);
+	//height: calc(100vh - 72px);
+}
+.flexCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ml12 {
+	margin: 0 0 0 12px;
 }
 @mixin but {
 	margin: 0 16px 0 0;
@@ -21,11 +29,30 @@
 	padding: 12px 37px;
 	cursor: pointer;
 }
+@mixin but-border {
+	border-radius: 12px;
+	border: 3px solid #7155ea;
+	background: rgba(64, 36, 178, 0.1);
+	padding: 10.5px 35.5px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+	cursor: pointer;
+}
 
 @mixin border-gradient {
 	border: double 2px transparent;
 	background-image: linear-gradient(#130645, #130645),
 		linear-gradient(rgba(64, 36, 178, 1), rgba(65, 37, 181, 0));
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+@mixin border-gradient-bottom {
+	border: double 3px transparent;
+	background-image: linear-gradient(#130645, #130645),
+		linear-gradient(rgba(65, 37, 181, 0), rgba(64, 36, 178, 1));
 	background-origin: border-box;
 	background-clip: content-box, border-box;
 }

@@ -1,0 +1,89 @@
+@import 'src/assets/styles/utility';
+.heart {
+	position: relative;
+	margin: 465px 0 0 0;
+	&__title {
+		margin: 0 0 75px 0;
+		text-align: center;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		line-height: 54px;
+		text-transform: uppercase;
+		color: #f2f2f2;
+	}
+	&__buttons {
+		margin: 0 0 75px 0;
+		text-align: center;
+		&-btn {
+			&-button {
+				margin: 0 100px 0 0;
+				@include but-border;
+				font-weight: 600;
+				&:last-child {
+					margin: 0;
+				}
+			}
+		}
+	}
+	&__social {
+		margin: 0 0 105px 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&-icon {
+			margin: 0 25px 0 0;
+			cursor: pointer;
+			&:last-child {
+				margin: 0;
+			}
+		}
+	}
+	&__position-heart {
+		width: 386px;
+		height: 386px;
+		position: absolute;
+		top: -410px;
+		left: 527px;
+	}
+
+	&__position-coin {
+		width: 269px;
+		height: 245px;
+		position: absolute;
+		top: -380px;
+		right: 144px;
+	}
+
+	&__position-smallCoin {
+		width: 208px;
+		height: 192px;
+		position: absolute;
+		top: -216px;
+		left: 301px;
+	}
+
+	&__position-halfCoinL {
+		width: 97px;
+		height: 178px;
+		position: absolute;
+		top: -2px;
+		left: 0;
+	}
+
+	&__position-halfCoinR {
+		width: 120px;
+		height: 192px;
+		position: absolute;
+		top: 110px;
+		right: 0;
+	}
+	&__position-halfCoinB {
+		width: 191px;
+		height: 89px;
+		position: absolute;
+		left: 229px;
+		bottom: -105px;
+		overflow: hidden;
+	}
+}

@@ -36,16 +36,7 @@
 				@include but;
 			}
 			&-markets {
-				border-radius: 12px;
-				border: 3px solid #7155ea;
-				background: rgba(64, 36, 178, 0.1);
-				padding: 10.5px 35.5px;
-				font-style: normal;
-				font-weight: 500;
-				font-size: 16px;
-				line-height: 24px;
-				color: #ffffff;
-				cursor: pointer;
+				@include but-border;
 			}
 		}
 	}

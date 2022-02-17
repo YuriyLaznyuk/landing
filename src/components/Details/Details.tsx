@@ -1,5 +1,8 @@
 import React from 'react';
 import Line from '../../assets/images/Line.svg';
+const prod1 = require('../../assets/images/prod1.png');
+const prod2 = require('../../assets/images/prod2.png');
+const prod3 = require('../../assets/images/prod3.png');
 import './details.scss';
 
 const Details = () => {
@@ -82,6 +85,69 @@ const Details = () => {
 					<button className='details__advantages-btn-button'>
 						Start trading
 					</button>
+				</div>
+			</div>
+			<div className='details__products'>
+				<div className='details__products-title'>Our products</div>
+				<div className='details__products-text'>
+					Buy bitcoin and other altcoins in a couple of clicks - no special
+					knowledge required
+				</div>
+				<div className='details__products-block'>
+					<div className='details__products-block-item'>
+						<div className='flexCenter'>
+							<div className='details__products-block-item-icon'>
+								<img src={prod1} alt='prod1' />
+							</div>
+						</div>
+
+						<div className='details__products-block-item-wrap'>
+							<div className='details__products-block-item-wrap-title'>
+								qMall LaunchPad
+							</div>
+							<div className='details__products-block-item-wrap-text'>
+								Platform for launching cryptocurrency projects. Buy the digital
+								assets of a project first and get the benefits of investing
+								early.
+							</div>
+						</div>
+					</div>
+					<div className='details__products-block-item'>
+						<div className='flexCenter'>
+							<div className='details__products-block-item-icon'>
+								<img src={prod2} alt='prod2' />
+							</div>
+						</div>
+
+						<div className='details__products-block-item-wrap'>
+							<div className='details__products-block-item-wrap-title'>
+								qMall LaunchPad
+							</div>
+							<div className='details__products-block-item-wrap-text'>
+								Platform for launching cryptocurrency projects. Buy the digital
+								assets of a project first and get the benefits of investing
+								early.
+							</div>
+						</div>
+					</div>
+					<div className='details__products-block-item'>
+						<div className='flexCenter'>
+							<div className='details__products-block-item-icon'>
+								<img src={prod3} alt='prod3' />
+							</div>
+						</div>
+
+						<div className='details__products-block-item-wrap'>
+							<div className='details__products-block-item-wrap-title'>
+								qMall LaunchPad
+							</div>
+							<div className='details__products-block-item-wrap-text'>
+								Platform for launching cryptocurrency projects. Buy the digital
+								assets of a project first and get the benefits of investing
+								early.
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
