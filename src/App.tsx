@@ -5,6 +5,7 @@ import OpenAccount from './components/OpenAccount/OpenAccount';
 import Cards from './components/Cards/Cards';
 import CryptoStep from './components/CryptoStep/CryptoStep';
 import Details from './components/Details/Details';
+import './assets/styles/main.scss';
 
 const App = () => {
 	return (

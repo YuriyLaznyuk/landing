@@ -1,3 +1,4 @@
+@import 'src/assets/styles/utility';
 .openAccount {
 	height: 613px;
 	background-repeat: no-repeat;
@@ -32,17 +33,7 @@
 		}
 		&-btn {
 			&-open {
-				margin: 0 16px 0 0;
-				background-image: linear-gradient(180deg, #4125b6 0%, #7357ec 100%);
-				border-width: 0;
-				border-radius: 12px;
-				font-style: normal;
-				font-weight: 500;
-				font-size: 16px;
-				line-height: 24px;
-				color: #ffffff;
-				padding: 12px 37px;
-				cursor: pointer;
+				@include but;
 			}
 			&-markets {
 				border-radius: 12px;
